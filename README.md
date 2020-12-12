@@ -84,4 +84,4 @@ caches statistics for your repositories. For more information, see issue
 - Inspired by a desire to improve upon
   [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 - Makes use of [GitHub Octicons](https://primer.style/octicons/) to precisely
-  match the GitHub UI
+  match the GitHub UI 
