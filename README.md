@@ -34,6 +34,7 @@ access token to collect statistics on private repositories that an external
 service would be unable to access.
 
 ## Disclaimer
+.
 
 If the project is used with an access token that has sufficient permissions to
 read private repositories, it may leak details about those repositories in
