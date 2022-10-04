@@ -63,3 +63,14 @@ jobs:
         # "echo" returns true so the build succeeds, even if no changed files
         git commit -m 'Update generated files' || echo
         git push
+        
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: TerminalProfile
+        uses: lowlighter/metrics@latest
+        with:
+          template: terminal
+          filename: metrics.terminal.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, metadat
